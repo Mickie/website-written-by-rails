@@ -1,0 +1,30 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#slides {
+  display:none;
+  height:600px;
+  width:1024px;
+  margin:0 auto;
+  a{
+    color:grey;
+  }
+}
+ul.slidesjs-pagination{
+  float:right;
+}
+ul.slidesjs-pagination li{
+  list-style: none;
+  display: inline;
+  float:left;
+  margin-left:5px;
+
+  a{
+    color:grey;
+  }
+}
+
+#subcontent{
+  text-align: center;
+}

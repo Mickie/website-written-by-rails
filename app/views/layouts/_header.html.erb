@@ -1,0 +1,71 @@
+<script>
+
+
+</script>
+<div class="navbar">
+<div class="navbar-inner">
+<a class="logo" href="#">LOGO</a>
+
+<ul class="nav">
+  <li class="">
+	<a class="main-menu" href="/home" >Home</a>
+  </li>
+  <li class="dropdown">
+	<a class="dropdown-toggle main-menu"
+	   data-toggle="dropdown"
+	   href="#">
+	  Products
+	  <b class="caret"></b>
+	</a>
+	<ul class="dropdown-menu">
+	<li><a href="/product">link1</a></li>
+	<li><a href="/product">link2</a></li>
+	<li><a href="/product">link3</a></li>
+	  <!-- links -->
+	</ul>
+  </li>
+
+  <li class="dropdown">
+	<a class="dropdown-toggle main-menu"
+	   data-toggle="dropdown"
+	   href="#">
+	  About
+	  <b class="caret"></b>
+	</a>
+	<ul class="dropdown-menu">
+	  <li><a href="/about">link1</a></li>
+	  <li><a href="/about">link2</a></li>
+	  <li><a href="/about">link3</a></li>
+	  <!-- links -->
+	</ul>
+  </li>
+
+  <li class="dropdown">
+	<a class="dropdown-toggle main-menu"
+	   data-toggle="dropdown"
+	   href="#">
+	  Jobs
+	  <b class="caret"></b>
+	</a>
+	<ul class="dropdown-menu">
+	  <li><a href="/jobs">link1</a></li>
+	  <li><a href="/jobs">link2</a></li>
+	  <li><a href="/jobs">link3</a></li>
+	  <!-- links -->
+	</ul>
+  </li>
+</ul>
+<% if current_user=="true"%>
+      <div class="login-logout-container">
+		<a href="#" class="btn  btn-primary">Log out</a>
+      </div>
+  <%else%>
+	  <div class="login-logout-container">
+		<a href="#" class="btn  ">Log In</a>
+		<a href="/signup" class="btn  btn-primary">Sign Up</a>
+	  </div>
+<%end%>
+
+
+ </div>
+	</div>

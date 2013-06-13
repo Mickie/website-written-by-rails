@@ -1,0 +1,76 @@
+@import "bootstrap";
+body{
+  background-color: #f5f5f5;
+}
+#content-wrapper{
+  width:1204px;
+  margin:1px auto;
+  border-top:1px solid #d4d4d4;
+  border-left:1px solid #d4d4d4;
+  border-right:1px solid #d4d4d4;
+  border-bottom:1px solid #d4d4d4;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  background-color: white;
+
+}
+#header{
+  height:60px;
+  z-index:10000;
+  position:relative;
+}
+#header-inner{
+  width:auto;
+  text-align: left;
+  margin:auto;
+
+  .logo{
+    width:180px;
+    height:38px;
+    display:block;
+    float:left;
+    margin-left:50px;
+    margin-right:0;
+    margin-top:20px;
+    font-family: "Raleway","Helvetica Neue",Helvetica,"Myriad Pro","Lucida Grande",sans-serif;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    color: #0088cc;
+    margin-right:30px;
+  }
+}
+
+ul.nav li a.main-menu{
+  line-height: 60px;
+  width:120px;
+  padding:0 10px;
+  text-align:center;
+}
+.navbar .nav .dropdown-toggle .caret {
+  margin-top:28px;
+}
+
+.login-logout-container{
+  padding-top:10px;
+  position:absolute;
+  left:1100px;
+
+  a{
+    margin-left:10px;
+  }
+}
+
+#footer{
+
+  text-align: center;
+  vertical-align: middle;
+  font-size:0.8em;
+  line-height:80px;
+  background:black url('footer_pic.png') repeat-x top left;
+  color:white;
+  p{
+    margin:0;
+  }
+}
